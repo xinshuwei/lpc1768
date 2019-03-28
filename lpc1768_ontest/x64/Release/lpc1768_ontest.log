@@ -1,0 +1,13 @@
+﻿  lpc1768_ontestDlg.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\DbgHelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\DbgHelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+lpc1768_ontestDlg.cpp(376): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+lpc1768_ontestDlg.cpp(377): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+    正在创建库 C:\Users\li\Documents\Visual Studio 2015\Projects\lpc1768_ontest\x64\Release\lpc1768_ontest.lib 和对象 C:\Users\li\Documents\Visual Studio 2015\Projects\lpc1768_ontest\x64\Release\lpc1768_ontest.exp
+lpc1768_ontest.obj : error LNK2001: 无法解析的外部符号 "public: virtual __cdecl itas109::CSerialPort::~CSerialPort(void)" (??1CSerialPort@itas109@@UEAA@XZ)
+lpc1768_ontestDlg.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl itas109::CSerialPort::CSerialPort(void)" (??0CSerialPort@itas109@@QEAA@XZ)
+lpc1768_ontestDlg.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl itas109::CSerialPortInfo::CSerialPortInfo(void)" (??0CSerialPortInfo@itas109@@QEAA@XZ)
+lpc1768_ontestDlg.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl itas109::CSerialPortInfo::~CSerialPortInfo(void)" (??1CSerialPortInfo@itas109@@QEAA@XZ)
+lpc1768_ontestDlg.obj : error LNK2001: 无法解析的外部符号 "public: static class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __cdecl itas109::CSerialPortInfo::availablePorts(void)" (?availablePorts@CSerialPortInfo@itas109@@SA?AV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ)
+lpc1768_ontestDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl itas109::CSerialPort::close(void)" (?close@CSerialPort@itas109@@QEAAXXZ)
+C:\Users\li\Documents\Visual Studio 2015\Projects\lpc1768_ontest\x64\Release\lpc1768_ontest.exe : fatal error LNK1120: 6 个无法解析的外部命令

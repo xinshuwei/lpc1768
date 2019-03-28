@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  lpc1768_ontestDlg.cpp
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+c:\users\li\documents\visual studio 2015\projects\lpc1768_ontest\lpc1768_ontest\lpc1768_ontestdlg.cpp(375): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\li\documents\visual studio 2015\projects\lpc1768_ontest\lpc1768_ontest\lpc1768_ontestdlg.cpp(376): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  lpc1768_ontest.cpp
+  正在生成代码...
+LINK : fatal error LNK1104: 无法打开文件“libcserialportd.lib”
